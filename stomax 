@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StoryWorld</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+header{
+    background:#1e293b;
+    padding:20px;
+    text-align:center;
+}
+header h1{
+    margin:0;
+    color:#38bdf8;
+}
+nav{
+    margin-top:10px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+.hero h2{
+    font-size:36px;
+}
+.hero p{
+    color:#cbd5e1;
+}
+.btn{
+    display:inline-block;
+    background:#38bdf8;
+    color:black;
+    padding:12px 24px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+.card{
+    background:#1e293b;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e293b;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>📚 StoryWorld</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">Stories</a>
+<a href="#">Chat</a>
+<a href="#">Login</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Welcome to StoryWorld</h2>
+<p>Read amazing stories, chat with people around the world, and enjoy a growing community.</p>
+
+<a href="#" class="btn">Start Reading</a>
+</section>
+
+<section class="features">
+
+<div class="card">
+<h3>📖 Stories</h3>
+<p>Read thousands of exciting stories from different genres.</p>
+</div>
+
+<div class="card">
+<h3>💬 Global Chat</h3>
+<p>Meet and chat with readers from around the world.</p>
+</div>
+
+<div class="card">
+<h3>⭐ Premium</h3>
+<p>Unlock exclusive stories and premium features.</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 StoryWorld. All Rights Reserved.
+</footer>
+
+</body>
+</html>
